@@ -31,6 +31,20 @@ body {
   font-size: 14px;
 }
 
+.box1 {
+  width: 80px;
+  height: 40px;
+  background: #0099cc;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  text-align: center;
+  margin: 10px auto;
+  position: relative;
+  font-size: 14px;
+}
 .second-level, .third-level, .lower-level {
   display: flex;
   justify-content: center;
