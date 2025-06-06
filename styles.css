@@ -33,18 +33,6 @@ body {
         10px 10px 25px rgba(0, 0, 0, 0.15); 
 }
 
-.box::before {
-    content: '';
-    position: absolute;
-    top: -5px; 
-    left: -5px; 
-    right: -5px; 
-    bottom: -5px; 
-    background: rgba(255, 255, 255, 0.4); 
-    border-radius: 8px;
-    filter: blur(8px);
-    z-index: -1; 
-}
 
 .box1 {
   width: 80px;
