@@ -29,21 +29,21 @@ body {
     text-align: center;
     position: relative;
     box-shadow: 
-        5px 5px 15px rgba(0, 0, 0, 0.3), /* 軽いぼかし */
-        10px 10px 25px rgba(0, 0, 0, 0.15); /* より強いぼかし */
+        5px 5px 15px rgba(0, 0, 0, 0.3), 
+        10px 10px 25px rgba(0, 0, 0, 0.15); 
 }
 
 .box::before {
     content: '';
     position: absolute;
-    top: -5px; /* ボックスの上部 */
-    left: -5px; /* ボックスの左部 */
-    right: -5px; /* ボックスの右部 */
-    bottom: -5px; /* ボックスの下部 */
-    background: rgba(255, 255, 255, 0.4); /* 明るいハイライト */
+    top: -5px; 
+    left: -5px; 
+    right: -5px; 
+    bottom: -5px; 
+    background: rgba(255, 255, 255, 0.4); 
     border-radius: 8px;
     filter: blur(8px);
-    z-index: -1; /* ボックスの背面に配置 */
+    z-index: -1; 
 }
 
 .box1 {
