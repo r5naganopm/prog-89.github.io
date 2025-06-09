@@ -33,6 +33,18 @@ body {
         10px 10px 25px rgba(0, 0, 0, 0.15); 
 }
 
+.box::before {
+    content: '';
+    position: absolute;
+    top: -5px; /* ボックスの上部 */
+    left: -5px; /* ボックスの左部 */
+    right: -5px; /* ボックスの右部 */
+    bottom: -5px; /* ボックスの下部 */
+    background: rgba(255, 255, 255, 0.4); /* 明るいハイライト */
+    border-radius: 8px;
+    filter: blur(8px);
+    z-index: -1; /* ボックスの背面に配置 */
+}
 
 .box1 {
   width: 80px;
