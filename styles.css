@@ -92,3 +92,32 @@ body {
 .box:last-child::after {
   display: none;
 }
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    margin: 0;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: white;
+    border: 1px solid #007BFF;
+    border-radius: 5px;
+    color: #007BFF;
+    font-family: 'Arial', sans-serif;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    position: relative;
+    transition: all 0.3s ease;
+}
+
+.button:hover {
+    background-color: #007BFF;
+    color: white;
+}
